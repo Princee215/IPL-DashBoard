@@ -1,0 +1,64 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #212121;
+}
+
+.bold {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.individual {
+  text-align: center;
+  border: 2px solid grey;
+  border-radius: 10px;
+  margin: 5% 10%;
+  background-color: #ece2e1;
+  position: relative;
+}
+
+img {
+  opacity: 1;
+  display: block;
+}
+
+.content {
+  position: absolute;
+}
+
+.individual:hover img {
+  opacity: 0;
+}
+
+.charts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2%;
+}
+
+.piechart {
+  width: 27%;
+  margin: 0 2%;
+}
+
+.heading {
+  margin: 0 0 1%;
+  font-weight: 600;
+  border-radius: 10px 10px 0 0;
+  background-color: #dcd6f7;
+}
+
+.x {
+  font-size: 250%;
+  font-weight: 600;
+}
+
+.navy {
+  height: 50px;
+  background-color: #dcd6f7;
+}
+
+.y {
+  padding: 0 2.5%;
+}
